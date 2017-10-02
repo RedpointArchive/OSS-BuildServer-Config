@@ -24,9 +24,6 @@ organizationFolder('Protobuild') {
         }
       }
     }
-    folder / 'projectFactories' / 'org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProjectFactory'(plugin: 'workflow-multibranch@2.16') {
-      scriptPath('Jenkinsfile')
-    }
   }
 }
 
@@ -56,9 +53,6 @@ organizationFolder('RedpointGames') {
         }
       }
     }
-    folder / 'projectFactories' / 'org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProjectFactory'(plugin: 'workflow-multibranch@2.16') {
-      scriptPath('Jenkinsfile')
-    }
   }
 }
 
@@ -87,9 +81,6 @@ organizationFolder('HiveMP') {
           trust(class: 'org.jenkinsci.plugins.github_branch_source.ForkPullRequestDiscoveryTrait$TrustContributors')
         }
       }
-    }
-    folder / 'projectFactories' / 'org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProjectFactory'(plugin: 'workflow-multibranch@2.16') {
-      scriptPath('Jenkinsfile')
     }
   }
 }
