@@ -11,6 +11,7 @@ organizationFolder('Protobuild') {
   configure { folder ->
     folder / 'navigators' / 'org.jenkinsci.plugins.github__branch__source.GitHubSCMNavigator'(plugin: 'github-branch-source@2.2.3') {
       repoOwner('Protobuild')
+      credentialsId('redpoint-jenkins-oss-organisation-scanning')
       traits {
         'org.jenkinsci.plugins.github__branch__source.BranchDiscoveryTrait' {
           strategyId(1)
@@ -40,6 +41,7 @@ organizationFolder('RedpointGames') {
   configure { folder ->
     folder / 'navigators' / 'org.jenkinsci.plugins.github__branch__source.GitHubSCMNavigator'(plugin: 'github-branch-source@2.2.3') {
       repoOwner('RedpointGames')
+      credentialsId('redpoint-jenkins-oss-organisation-scanning')
       traits {
         'org.jenkinsci.plugins.github__branch__source.BranchDiscoveryTrait' {
           strategyId(1)
@@ -69,6 +71,7 @@ organizationFolder('HiveMP') {
   configure { folder ->
     folder / 'navigators' / 'org.jenkinsci.plugins.github__branch__source.GitHubSCMNavigator'(plugin: 'github-branch-source@2.2.3') {
       repoOwner('HiveMP')
+      credentialsId('redpoint-jenkins-oss-organisation-scanning')
       traits {
         'org.jenkinsci.plugins.github__branch__source.BranchDiscoveryTrait' {
           strategyId(1)
