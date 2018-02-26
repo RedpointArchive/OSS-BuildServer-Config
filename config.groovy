@@ -5,7 +5,6 @@ organizationFolder('Protobuild') {
   }
   orphanedItemStrategy {
     discardOldItems {
-      numToKeep(0)
     }
   }
   configure { folder ->
@@ -35,7 +34,6 @@ organizationFolder('RedpointGames') {
   }
   orphanedItemStrategy {
     discardOldItems {
-      numToKeep(0)
     }
   }
   configure { folder ->
@@ -65,7 +63,6 @@ organizationFolder('HiveMP') {
   }
   orphanedItemStrategy {
     discardOldItems {
-      numToKeep(0)
     }
   }
   configure { folder ->
